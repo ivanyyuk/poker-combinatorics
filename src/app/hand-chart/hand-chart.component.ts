@@ -1,6 +1,6 @@
 import { Component, HostListener } from '@angular/core';
 
-const generateSeed = () : number[][] => Array(13).fill(Array(13).fill(0));
+const generateSeed = () :number[][] => Array(13).fill(Array(13).fill(0));
 
 
 @Component({

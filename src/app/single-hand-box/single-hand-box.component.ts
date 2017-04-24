@@ -70,6 +70,8 @@ export class SingleHandBox implements OnInit {
   //TODO: small UX annoyance when selecting a bunch
   //of hands quickly.... maybe add a setTimeout debounce
   //kind of thing
+  //this works perfect when selecting vertically
+  //but not horizontally
   select() :void {
     this.isSelected = !this.isSelected
   }
