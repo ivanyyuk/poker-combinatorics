@@ -1,0 +1,7 @@
+<div class='hand-grid-container'>
+<div class='hand-grid' *ngFor='let row of seed; let x=index'>
+  <div  *ngFor='let box of row; let y=index'>
+<single-hand-box  [x]='x' [y]='y' [isMouseDown]='isMouseDown'></single-hand-box>
+  </div>
+</div>
+</div>

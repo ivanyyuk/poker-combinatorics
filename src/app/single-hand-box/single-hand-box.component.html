@@ -1,0 +1,4 @@
+<div class="single-hand {{hand.type}}" 
+     [ngClass]="{'selected': isSelected}"
+     (mousedown)='select()'
+     *ngIf="hand">{{hand.cardOne}}{{hand.cardTwo}}{{hand.type.slice(0,1)}}</div>

@@ -1,0 +1,12 @@
+.hand-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hand-grid-container {
+  width:351px;
+  user-select: none;
+  cursor: default;
+  border: solid 1px;
+}

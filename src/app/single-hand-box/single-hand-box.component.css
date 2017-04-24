@@ -1,0 +1,28 @@
+.single-hand {
+  background-color: eggshell;
+  width: 25px;
+  margin: 1px;
+  height: auto;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-size: 12px;
+  cursor: default;
+  /*user-select: none;*/
+}
+
+.single-hand:hover {
+  background-color: silver;
+}
+
+.suited {
+  background-color: #AACCFF;
+}
+
+.offsuit {
+  background-color: #AAEEFF;
+}
+
+.selected {
+  background-color: yellow;
+}
